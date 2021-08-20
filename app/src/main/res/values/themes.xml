@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Pawsome" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2E877C</item>
+        <item name="colorPrimaryVariant">#0F585A</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#CC6A7D</item>
+        <item name="colorSecondaryVariant">#48C59A</item>
+        <item name="colorOnSecondary">@color/teal_200</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        
+    </style>
+
+    <style name="app_Theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">#2CA889</item>
+        <item name="colorPrimaryDark">#03A9F4</item>
+        <item name="colorAccent">#2B9565</item>
+        <item name="android:statusBarColor">#CDE8F3</item>
+    </style>
+</resources>
